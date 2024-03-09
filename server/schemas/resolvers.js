@@ -1,5 +1,5 @@
 const { User } = require('../models');
-const { signToken, AuthenticationError } = require('../utils/auth');
+const { signToken, AuthenticationError } = require('mongodb+srv://tony_g123:1Aguirre@googlebooks.q82bpsh.mongodb.net/');
 
 const resolvers = {
   Query: {
